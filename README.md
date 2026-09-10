@@ -14,6 +14,7 @@ npm install
 ```bash
 npm run divide
 npm run demo
+npm run all-values
 ```
 
 Run any TypeScript file:
@@ -21,4 +22,5 @@ Run any TypeScript file:
 ```bash
 npm run ts -- divide.ts
 npm run ts -- typescriptResultDemo.ts
+npm run ts -- allValues.ts
 ```

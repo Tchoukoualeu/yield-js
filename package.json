@@ -7,7 +7,8 @@
   "scripts": {
     "ts": "node --no-warnings --loader ts-node/esm",
     "divide": "node --no-warnings --loader ts-node/esm divide.ts",
-    "demo": "node --no-warnings --loader ts-node/esm typescriptResultDemo.ts"
+    "demo": "node --no-warnings --loader ts-node/esm typescriptResultDemo.ts",
+    "all-values": "node --no-warnings --loader ts-node/esm allValues.ts"
   },
   "engines": {
     "node": ">=18"
