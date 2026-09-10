@@ -8,7 +8,11 @@
     "ts": "node --no-warnings --loader ts-node/esm",
     "divide": "node --no-warnings --loader ts-node/esm divide.ts",
     "demo": "node --no-warnings --loader ts-node/esm typescriptResultDemo.ts",
-    "all-values": "node --no-warnings --loader ts-node/esm allValues.ts"
+    "all-values": "node --no-warnings --loader ts-node/esm allValues.ts",
+    "to-tuple": "node --no-warnings --loader ts-node/esm toTuple.ts",
+    "calculate-stuff": "node --no-warnings --loader ts-node/esm calculateStuff.ts",
+    "on-success-failure": "node --no-warnings --loader ts-node/esm onSuccessOnFailure.ts",
+    "api-handler": "node --no-warnings --loader ts-node/esm apiHandler.ts"
   },
   "engines": {
     "node": ">=18"
