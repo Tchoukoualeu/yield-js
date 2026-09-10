@@ -1,0 +1,23 @@
+{
+  "name": "yield-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Playground for testing typescript-result",
+  "scripts": {
+    "ts": "node --no-warnings --loader ts-node/esm",
+    "divide": "node --no-warnings --loader ts-node/esm divide.ts",
+    "demo": "node --no-warnings --loader ts-node/esm typescriptResultDemo.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "typescript-result": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
